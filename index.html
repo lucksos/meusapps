@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meus Apps</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1d2330; --muted:#5b6475; --line:#d9dde5; --link:#1a56c4; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14171d; --fg:#e8ebf1; --muted:#9aa3b5; --line:#2b313c; --link:#7fb0ff; }
+  }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:42rem; margin:0 auto; padding:2.5rem 1.25rem 4rem; }
+  h1 { font-size:2rem; margin:0 0 .5rem; }
+  h2 { font-size:1.2rem; margin:2rem 0 .5rem; }
+  p, li { color:var(--fg); }
+  .lead { color:var(--muted); margin-top:0; }
+  a { color:var(--link); }
+  a:focus-visible { outline:2px solid var(--link); outline-offset:2px; }
+  footer { margin-top:3rem; padding-top:1rem; border-top:1px solid var(--line); color:var(--muted); font-size:.95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Meus Apps</h1>
+  <p class="lead">Aplicativos Android pessoais e leves, que fazem a sincronização de fotos e outros dados com a conta Google do próprio autor.</p>
+
+  <h2>Fotos Sync</h2>
+  <p>Envia as fotos e os vídeos do aparelho para o Google Fotos, em segundo plano e apenas quando as condições escolhidas pelo usuário são atendidas (Wi-Fi, carregando, nível mínimo de bateria). Também exibe uma galeria simples com as mídias que estão no aparelho.</p>
+  <p>Usa a Google Photos Library API somente para adicionar itens à biblioteca do usuário.</p>
+
+  <h2>Outros apps</h2>
+  <p>Um app de notas e um cliente do Google Drive, que guardam arquivos criados pelo próprio app na pasta do usuário no Google Drive.</p>
+
+  <h2>Como os dados são tratados</h2>
+  <p>Os apps falam diretamente com os serviços do Google, sem servidor intermediário. Os detalhes estão na <a href="privacy.html">Política de Privacidade</a>.</p>
+
+  <footer>
+    Contato: <a href="mailto:luca.trattoria@gmail.com">luca.trattoria@gmail.com</a>
+    &nbsp;|&nbsp; <a href="privacy.html">Política de Privacidade</a>
+  </footer>
+</main>
+</body>
+</html>
